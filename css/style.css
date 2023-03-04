@@ -1,0 +1,130 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&family=Work+Sans:wght@200;500;800&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Work Sans', sans-serif;
+    font-size:18px;
+    list-style: none;
+
+}
+body{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+
+
+
+}
+span{
+    font-size:38px;
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.logo{
+    font-size:30px;
+    font-weight:bold;
+
+    
+}
+.header{
+    position: relative;
+    padding: 7px 10px;
+    width: 80%;
+    background: rgb(190,19,19);
+    background: linear-gradient(90deg, rgba(190,19,19,1) 0%, rgba(221,213,95,1) 35%, rgba(0,212,255,1) 100%);
+    border-radius: 5px;
+    margin: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h3{
+    font-weight: bolder;
+}
+.cart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 10px;
+    border-radius: 5px;
+    width: 80px;
+    background-color: white;
+    color :rgb(33, 33, 33);
+}
+.fa-solid{
+    font-size: 25px;
+}
+.cart p{
+    height: 22px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.container{
+    display: flex;
+    width: 80%; 
+    margin-top: 30px;  
+
+}
+#root{
+    width:5%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.sidebar{
+    width: 40%;
+    background-color: #eee;
+    border-radius: 5px;
+    margin-left: 20px;
+    padding: 15px;
+    text-align: center;
+}
+.head{
+    background-color:goldenrod;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.foot{
+    display:flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding: 10px 0;
+    border-top: 1px solid #333;
+}
+.card{
+    display: flex;
+    
+}
+
+.list{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 40px;
+}
+ul li h1{
+    background-color: rgb(226, 141, 12);
+    margin-top: 10px;
+    border-radius: 20px;
+    font-size: 30px;
+    text-align: center;
+    cursor:pointer;
+    
+    
+}
+.show{
+    text-align: center;
+}
